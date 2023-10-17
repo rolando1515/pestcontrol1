@@ -1,0 +1,27 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Miriam+Libre:wght@400;700&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Miriam+Libre:wght@400;700&family=Open+Sans:wght@700&display=swap');
+  
+  
+  :root {
+    font-family: 'Miriam Libre', 'Open Sans';
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    :root {
+      --width: 90%;
+    }
+  }
+  
+  /*
+   TODO: Define a max-width for your mobile views, do research into media queries and a proper width to use. 
+   */
+  @media (max-width: 767px) {
+    :root {
+      --width: 95%;
+    }
+  }
+  
