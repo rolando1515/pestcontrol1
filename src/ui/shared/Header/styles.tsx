@@ -25,19 +25,20 @@ export const Style ={
         font-weight: 700;
         line-height: 170%; /* 27.2px */
         text-transform: capitalize;
-
+    }
         .phone-number {
         display: flex;
         align-items: center;
+        
         }
 
-.phone-number span {
-  margin-left: 10px; /* Adjust the margin as needed */
-}
+        .phone-number-text {
+        margin-top: 53px; /* Add margin top to lower the phone number */
+        }
 
 
 
-    }
+  //  }
 
 
     `,
