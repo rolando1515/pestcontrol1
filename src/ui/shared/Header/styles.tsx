@@ -3,16 +3,22 @@ import styled from "styled-components";
 
 export const Style ={
     Container: styled.header`
-    height: 123px;
+    height: 50px;
     width: 100%;
     display: grid;
     place-items: center;
     background: var(--solid-f-18-f-01, #F18F01);
     
+    @media (max-width: 768px) {
+      span {
+        margin-bottom: 10px;
+      }
+    }
 
-    ul{
-        list-style:none
-
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 10px;
     }
   
 
@@ -24,6 +30,8 @@ export const Style ={
         font-style: normal;
         font-weight: 700;     
         text-transform: capitalize;
+        
+
     }
         .phone-number {
         display: flex;
@@ -32,9 +40,29 @@ export const Style ={
         }
 
         .phone-number-text {
-        margin-top: 53px; /* Add margin top to lower the phone number */
+            margin-left:5px;
+        
         }
 
+        .clock{
+            display: flex;
+            align-items: center;
+        }
+
+        .clock-text{
+        margin-left:5px;
+
+        }
+
+        .location{
+
+            display: flex;
+            align-items: center;
+
+        }
+        .location-txt{
+
+        }
 
 
 
@@ -42,3 +70,4 @@ export const Style ={
 
     `,
 };
+ 
