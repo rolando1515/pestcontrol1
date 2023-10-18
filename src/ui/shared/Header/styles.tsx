@@ -22,8 +22,7 @@ export const Style ={
         font-family: Open Sans;
         font-size: 16px;
         font-style: normal;
-        font-weight: 700;
-        line-height: 170%; /* 27.2px */
+        font-weight: 700;     
         text-transform: capitalize;
     }
         .phone-number {
@@ -38,7 +37,7 @@ export const Style ={
 
 
 
-  //  }
+
 
 
     `,
