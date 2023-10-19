@@ -7,7 +7,7 @@ export const Style ={
     width: 100%;
     display: grid;
     place-items: center;
-    background: var(--solid-f-18-f-01, #F18F01);
+    background: var(--solid-f-18-f-01,#019EE1 );
     
     @media (max-width: 768px) {
       span {
