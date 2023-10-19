@@ -28,12 +28,12 @@ export function Header() {
           </span>
 
           </li>
-          
-
-
-
-          
+          <div className="search-box">
+          <input type="text" placeholder="Search..." />
+          <button>Search</button>
+        </div>
         </ul>
+       
       </div>
     </Style.Container>
   );

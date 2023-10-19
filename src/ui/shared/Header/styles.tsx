@@ -64,7 +64,16 @@ export const Style ={
 
         }
 
+        .search-box{
+            display: flex;
+            width: 300px;
+            height: 40px;
+           // padding: 5px 20px 5px 22px;
+            justify-content: center;
+            align-items: center;
 
+
+        }
 
 
 
