@@ -68,12 +68,26 @@ export const Style ={
             display: flex;
             width: 300px;
             height: 40px;
-           // padding: 5px 20px 5px 22px;
+            // padding: 5px 20px 5px 22px;
             justify-content: center;
             align-items: center;
-
+            color:red;
 
         }
+
+        .search-box input[type="text"] {
+  flex: 1;
+  height: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search-box button {
+  height: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
 
 
 
