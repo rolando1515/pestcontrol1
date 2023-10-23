@@ -28,10 +28,10 @@ export function Header() {
           </span>
 
           </li>
-          <div className="search-box">
+          <li className="search-box">
           <input type="text" placeholder="Search..." />
-          <button>Search</button>
-        </div>
+         
+        </li>
         </ul>
        
       </div>

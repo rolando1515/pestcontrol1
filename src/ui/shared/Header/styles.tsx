@@ -26,7 +26,7 @@ export const Style ={
     li{
         color: var(--solid-fefefe, #FEFEFE);
         font-family: Open Sans;
-        font-size: 16px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 700;     
         text-transform: capitalize;
@@ -58,28 +58,30 @@ export const Style ={
 
             display: flex;
             align-items: center;
-
+            margin-right : 350px;
         }
         .location-txt{
-
+            margin-bottom: 10px;
         }
 
         .search-box{
             display: flex;
-            width: 300px;
-            height: 40px;
+            width: 200px;
+            height: 30px;
             // padding: 5px 20px 5px 22px;
             justify-content: center;
             align-items: center;
             color:red;
+           // padding: 5px 10px;
 
         }
 
-        .search-box input[type="text"] {
+ .search-box input[type="text"] {
   flex: 1;
-  height: 100%;
-  padding: 5px;
+  height: 90%;
+  //padding: 5px;
   font-size: 16px;
+  
 }
 
 .search-box button {
