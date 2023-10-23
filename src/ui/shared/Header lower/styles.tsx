@@ -18,6 +18,7 @@ export const Style ={
       list-style: none;
       display: flex;
       gap: 10px;
+     //padding: 32px 50px 32 px ;
     }
 
     li{
@@ -27,6 +28,8 @@ export const Style ={
         font-style: normal;
         font-weight: 700;     
         text-transform: capitalize;
+       
+        
         
 
     }
@@ -34,6 +37,7 @@ export const Style ={
     .company-container{
         display: flex;
         flex-direction: column  ;
+        padding-right: 350px;
         
 
 
@@ -48,7 +52,13 @@ export const Style ={
     }
 
 
+    .restoflist{
+        margin-top: 15px;
+        margin-left: 2px;
 
+
+
+    }
 
 
 

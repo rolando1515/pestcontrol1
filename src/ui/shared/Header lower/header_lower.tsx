@@ -16,25 +16,24 @@ export function HeaderLower() {
              <li className="company-container">
                 <span className="company-name">TermiTeck</span>
                 <span className="company-n">Pest Solutions,LLC </span>
-                
-                 
+               
              </li>
-             <li>
+             <li className="restoflist">
                 Home
              </li>
-                <li>
+             <li className="restoflist">
                     About Us
                 </li>
-                <li>
+                <li className="restoflist">
                     Services
                 </li>
-                <li>
+                <li className="restoflist">
                     Contact Us
                 </li>
-                <li>
+                <li className="restoflist">
                     Blog
                 </li>
-                <li>
+                <li className="restoflist">
                     FAQ
                 </li>
 
