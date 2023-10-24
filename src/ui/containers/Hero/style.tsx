@@ -9,9 +9,7 @@ export const Style = {
     flex-direction: column;
     justify-content: center;
     padding-bottom: calc(123px / 2);
-    background-image: url('/pictures/man-with-tank-reservoir-his-back-spraying-disinfectant-stop-corona-virus.jpg');
-    background-size: cover; 
-    background-position: center; 
+
 
     span {
       
@@ -38,9 +36,17 @@ export const Style = {
         font-size: 16px;
       }
     }
-    .Container {
-  background-image: url('/pictures/man-with-tank-reservoir-his-back-spraying-disinfectant-stop-corona-virus.jpg');
-  background-size: cover;
+    .background-image {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+  //   background-image: url("/pictures/pestcontrolpic.png");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
 }
 
     

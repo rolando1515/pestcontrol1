@@ -9,26 +9,20 @@ import { Hero } from "ui/containers/Hero/hero";
 
 
 export default function Home() {
-  return 
-  <>
-  <Head>
-    <title>Termitek landing page</title>
-    <meta name="description" content="Termitek landing page" /> 
- 
+  return (
+    <>
+      <Head>
+        <title>Roland's Portfolio</title>
+        <meta name="Welcome to Roland Labrador's portfolio" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <PageLayout>
+        <Hero />
+       
+       
 
-  </Head> 
-  <PageLayout>
-  <Hero />
-
-
-  </PageLayout>  
-  
-  
-  
-  
-  
-  
-  
-  
-  </>;
+        
+      </PageLayout>
+    </>
+  );
 }

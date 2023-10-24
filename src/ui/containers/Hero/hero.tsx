@@ -8,9 +8,12 @@ export function Hero() {
     <Style.Container>
       <div className="background-image">
         <Image
-          src='/pictures/man-with-tank-reservoir-his-back-spraying-disinfectant-stop-corona-virus.jpg'
+         
+          src="/pictures/pestcontrolpic.png"
           alt="Background Image"
-          layout="fill"
+          layout="responsive"
+          width={500} // Adjust the width as needed
+          height={500} // Adjust the height as needed
           objectFit="cover"
           quality={100}
         />
