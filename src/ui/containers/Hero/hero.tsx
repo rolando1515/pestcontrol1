@@ -1,5 +1,5 @@
 import { Style } from './style';  
-
+import TelephoneIcon from "../../components/Icons/TelephoneIcon/telephoneIcon";
 import Image from 'next/image';
 
 
@@ -19,9 +19,27 @@ export function Hero() {
         />
       </div>
       <div className="content">
-        <span>Some text</span>
-        <h1>Heading</h1>
-        <p>Some paragraph</p>
+       
+        <h1>Termiteck</h1>
+        <p>We are your Pest Control Solution.</p>
+        <ul> 
+        <li className="phone-number">
+            <TelephoneIcon />
+            <a href="tel:123-345-3444" className="phone-number-text"> Call us now</a>
+          </li>
+      
+
+
+
+
+        </ul>
+       
+        
+        
+          
+        
+
+
       </div>
       </Style.Container>
   );
@@ -29,3 +47,9 @@ export function Hero() {
 
 
 
+  /*<div className='telefone'>
+       <TelephoneIcon />
+       <a href="tel:123-345-3444" className="call-me-link">
+       Call us now
+        </a>
+       </div> */

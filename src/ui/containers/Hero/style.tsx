@@ -8,7 +8,10 @@ export const Style = {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     padding-bottom: calc(123px / 2);
+    padding-right: 20px;
+    
 
 
     span {
@@ -20,6 +23,9 @@ export const Style = {
     }
 
     h1 {
+      color: var(--solid-fefefe, #FEFEFE);
+      font-size: 60px;
+      text-transform: uppercase;
       
 
       @media (max-width: 768px) {
@@ -27,9 +33,12 @@ export const Style = {
         line-height: 105%;
       }
     }
+   
+
 
     p {
-     
+      color: var(--solid-fefefe, #FEFEFE);
+      font-size: 30px;
 
       @media (max-width: 768px) {
         margin: 15px 0;
@@ -47,8 +56,38 @@ export const Style = {
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
+    // filter: blur(7px);
+     filter: brightness(40%);
 }
+li{
+        color: var(--solid-fefefe, #FEFEFE);
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;     
+        text-transform: capitalize;
+      //  border: 1px solid #c6c6c6;
+     // border-radius: 5px;
+      //box-sizing: border-box;
+      text-transform: uppercase;
+      text-align: center;
+     // padding: 5px 20px;
+      align-items: center;
+      width: 200px;
+      
+        
 
+    }
+        .phone-number {
+        display: flex;
+        align-items: center;
+        
+        }
+
+        .phone-number-text {
+          //  margin-left:5px;
+        
+        }
     
   `,
 };

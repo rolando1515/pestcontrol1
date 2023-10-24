@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Roland's Portfolio</title>
-        <meta name="Welcome to Roland Labrador's portfolio" />
+        <title>Pest Control</title>
+        <meta name="Pest Control" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <PageLayout>
