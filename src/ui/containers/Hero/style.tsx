@@ -10,8 +10,8 @@ export const Style = {
     justify-content: center;
     align-items: flex-start;
     padding-bottom: calc(123px / 2);
-    padding-right: 20px;
-    
+    padding-right: 500px;
+   
 
 
     span {
@@ -26,6 +26,7 @@ export const Style = {
       color: var(--solid-fefefe, #FEFEFE);
       font-size: 60px;
       text-transform: uppercase;
+      margin: 0;
       
 
       @media (max-width: 768px) {
@@ -39,6 +40,7 @@ export const Style = {
     p {
       color: var(--solid-fefefe, #FEFEFE);
       font-size: 30px;
+      margin: 0;
 
       @media (max-width: 768px) {
         margin: 15px 0;
@@ -59,6 +61,14 @@ export const Style = {
     // filter: blur(7px);
      filter: brightness(40%);
 }
+
+ul{
+
+  
+
+
+
+
 li{
         color: var(--solid-fefefe, #FEFEFE);
         font-family: Open Sans;
@@ -70,24 +80,30 @@ li{
      // border-radius: 5px;
       //box-sizing: border-box;
       text-transform: uppercase;
-      text-align: center;
-     // padding: 5px 20px;
+      text-align: left;
+      padding-top: 10px;
       align-items: center;
-      width: 200px;
+      display: flex;
+      justify-content: left;
+      padding-right: 90px;
+}
       
         
 
     }
         .phone-number {
         display: flex;
-        align-items: center;
+        align-items: left;
+        
         
         }
 
         .phone-number-text {
-          //  margin-left:5px;
-        
+          margin-left: 10px;
+          
+         
         }
     
+   
   `,
 };

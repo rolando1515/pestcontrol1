@@ -47,9 +47,3 @@ export function Hero() {
 
 
 
-  /*<div className='telefone'>
-       <TelephoneIcon />
-       <a href="tel:123-345-3444" className="call-me-link">
-       Call us now
-        </a>
-       </div> */
