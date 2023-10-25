@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { PageLayout } from "ui/layouts/pageLayouts";
-import { Hero } from "ui/containers/Hero/hero";
+import { Hero,FeaturedService } from "ui/containers";
+
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <PageLayout>
         <Hero />
+        <FeaturedService />
        
        
 
