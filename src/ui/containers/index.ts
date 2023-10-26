@@ -2,6 +2,6 @@ import { Hero } from './Hero/hero';
 import { FeaturedService } from './FeaturedService/featuredService';
 //import { Experience } from './Experience/experience';
 //import { Resume } from './Resume/resume';
-//import { AboutMe } from './AboutMe/aboutMe';
+import { AboutUs } from './AboutUs/aboutUs';
 
-export { Hero, FeaturedService};
+export { Hero, FeaturedService,AboutUs};
