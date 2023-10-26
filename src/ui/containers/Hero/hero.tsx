@@ -9,7 +9,7 @@ export function Hero() {
       <div className="background-image">
         <Image
          
-          src="/pictures/pestcontrolpic.png"
+          src="/project_pictures/pestcontrolpic.png"
           alt="Background Image"
           layout="responsive"
           width={500} // Adjust the width as needed

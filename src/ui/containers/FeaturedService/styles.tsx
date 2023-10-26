@@ -10,6 +10,16 @@ export const Style = {
     justify-content: center;
     padding: 75px 0;
 
+    h2 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 25px;
+    }
 
     div.projects {
       display: flex;

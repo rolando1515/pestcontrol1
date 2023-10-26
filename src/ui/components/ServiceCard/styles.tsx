@@ -11,6 +11,62 @@ export const Style = {
       width: 100%;
       margin-bottom: 20px;
     }
+    .figure{
+      width: 100%;
+      height:65%;
+      border:1px red solid;
+      background-image: url(${({ image }) => image});
+      background-position: top;
+      background-size: cover; 
+      background-position:top;
+      background-size:cover;
+
+
+    }
+
+    hgroup {
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      div {
+        width: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+
+    h3 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 29px;
+      color: black;
+    }
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color:black;
+      margin-bottom: 7.5px;
+    }
+
+    span {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+      color: #6cace4;
+    }
+
+
 
 
   `,
