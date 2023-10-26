@@ -16,6 +16,7 @@ export function Hero() {
           height={500} // Adjust the height as needed
           objectFit="cover"
           quality={100}
+          objectPosition='center'
         />
       </div>
       <div className="content">

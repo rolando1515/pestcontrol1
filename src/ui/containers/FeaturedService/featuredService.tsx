@@ -7,7 +7,7 @@ import { Style } from './styles';
 const project_data = [
     {
       title: 'Vroom Stock App',
-      image: "/project_pictures/pestcontrolpic.png",
+      image: '/project_pictures/insect2.png',
       
       link: 'https://rolando1515-vroomstockpriceapp-myapp-s6gjuc.streamlit.app/',
       detail:
