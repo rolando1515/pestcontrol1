@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Style = {
     Container: styled.main`
-    //width: var(--width);
-    //max-width: var(--max-width);
-    height: 30px;
-    width: 100%;
+    width: var(--width);
+     max-width: var(--max-width);
+   // height: 120px;
+   // width: 100%;
     height: calc(100vh - 123px);
     display: flex;
     flex-direction: column;
@@ -22,7 +22,12 @@ export const Style = {
     h1{
         color: var(--solid-ffffff, #ffffff);
         align-self: center;
-        padding-bottom: 100px;
+        padding-bottom: 20px;
+        font-family: Open Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700; 
+        padding-top: 60px;
 
 
     }
@@ -30,33 +35,34 @@ export const Style = {
     h2{
         color: var(--solid-ffffff, #ffffff);
         align-self: center;
-       
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;     
+        text-transform: capitalize;
+        padding-top: 18px;
 
 
     }
 
-    ul {
-      list-style: none;
-      display: flex;
-      gap: 10px;
-     //padding: 32px 50px 32 px ;
-    }   
 
-    li{
-        color: var(--solid-ffffff, #ffffff);
-        align-self: center;
-        width: 50%;
-        text-align: center;
-        margin-top: 10px;
        
-    }
+    
 
     p{
         color: var(--solid-ffffff, #ffffff);
         align-self: center;
         width: 50%;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 15px;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-style: normal;
+        text-align: justify;
+        padding-bottom: 20px;
+
+        
+       
 
     }
 

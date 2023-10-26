@@ -7,9 +7,9 @@ import { Style } from './styles';
 const project_data = [
     {
       title: 'Vroom Stock App',
-      image: '/project_pictures/insect2.png',
+      image: '/project_pictures/insect1.png',
       
-      link: 'https://rolando1515-vroomstockpriceapp-myapp-s6gjuc.streamlit.app/',
+      link: '/project_pictures/insect2.png',
       detail:
         'Python-based Stock Price Web Application. Using Streamlit and yfinance libraries, this app fetches company information and real-time stock prices for S&P 500 companies. With less than 50 lines of code.',
     },

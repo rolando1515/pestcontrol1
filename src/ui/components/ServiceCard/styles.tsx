@@ -1,27 +1,24 @@
-import styled from "styled-components"; 
+import styled from 'styled-components';
 
-export const Style = {  
-    Container: styled.article<{image: string}>`
-       width: 45%;
-       height: 500px;
-       display: flex;
-       flex-direction: column;
+export const Style = {
+  Container: styled.article<{ backgroundImage: string }>`
+    width: 45%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
 
-       @media (max-width: 768px) {
+    @media (max-width: 768px) {
       width: 100%;
       margin-bottom: 20px;
     }
-    .figure{
+
+    .figure {
       width: 100%;
-      height:65%;
-      border:1px red solid;
-      background-image: url(${({ image }) => image});
+      height: 65%;
+      border: 1px red solid;
+      background-image: url(${({ backgroundImage }) => backgroundImage});
       background-position: top;
-      background-size: cover; 
-      background-position:top;
-      background-size:cover;
-
-
+      background-size: cover;
     }
 
     hgroup {
@@ -38,7 +35,6 @@ export const Style = {
       }
     }
 
-
     h3 {
       font-family: 'Inter';
       font-style: normal;
@@ -47,13 +43,14 @@ export const Style = {
       line-height: 29px;
       color: black;
     }
+
     p {
       font-family: 'Inter';
       font-style: normal;
       font-weight: 300;
       font-size: 16px;
       line-height: 24px;
-      color:black;
+      color: black;
       margin-bottom: 7.5px;
     }
 
@@ -65,9 +62,5 @@ export const Style = {
       line-height: 24px;
       color: #6cace4;
     }
-
-
-
-
   `,
 };

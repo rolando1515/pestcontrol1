@@ -16,7 +16,7 @@ export function ServiceCard({
        
       }) {
         return (
-          <Style.Container image={image}>
+          <Style.Container backgroundImage={image}>
             <figure></figure>
             <hgroup>
               <h3>{title}</h3>
