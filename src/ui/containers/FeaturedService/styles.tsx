@@ -18,7 +18,7 @@ export const Style = {
       line-height: 22px;
       text-transform: uppercase;
       color: #ffffff;
-      margin-bottom: 25px;
+      //margin-bottom: 25px;
     }
 
     div.projects {

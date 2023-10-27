@@ -13,7 +13,7 @@ export function Hero() {
           alt="Background Image"
           layout="responsive"
           width={500} // Adjust the width as needed
-          height={500} // Adjust the height as needed
+          height={300} // Adjust the height as needed
           objectFit="cover"
           quality={100}
           objectPosition='center'

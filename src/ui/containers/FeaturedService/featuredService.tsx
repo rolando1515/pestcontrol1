@@ -22,7 +22,7 @@ const project_data = [
         'A simple to do list app made with HTML,CSS and JavaScript. Its fast, responsive, and uses local storage to keep data secure.',
     },
     {
-      title: 'To do list',
+      title: 'Termites',
       image: '/project_pictures/insect3.png',
      
       link: 'https://to-do-list-r4qd645pj-rolando1515.vercel.app/',

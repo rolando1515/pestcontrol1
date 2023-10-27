@@ -14,8 +14,8 @@ export const Style = {
 
     .figure {
       width: 100%;
-      height: 65%;
-      border: 1px red solid;
+      height: 55%;
+      border: 5px red solid;
       background-image: url(${({ backgroundImage }) => backgroundImage});
       background-position: top;
       background-size: cover;
@@ -26,6 +26,7 @@ export const Style = {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      text-align: center;
 
       div {
         width: 75px;
@@ -42,6 +43,7 @@ export const Style = {
       font-size: 24px;
       line-height: 29px;
       color: black;
+      
     }
 
     p {
@@ -52,6 +54,7 @@ export const Style = {
       line-height: 24px;
       color: black;
       margin-bottom: 7.5px;
+      
     }
 
     span {
