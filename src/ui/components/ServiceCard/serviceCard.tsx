@@ -20,10 +20,7 @@ export function ServiceCard({
             <figure></figure>
             <hgroup>
               <h3>{title}</h3>
-              <div>
               
-               
-              </div>
             </hgroup>
       
             <p>{detail}</p>

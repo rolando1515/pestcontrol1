@@ -2,31 +2,35 @@ import styled from 'styled-components';
 
 export const Style = {
   Container: styled.article<{ backgroundImage: string }>`
-    width: 45%;
-    height: 500px;
+    width: 40%;
+    height: 750px;
     display: flex;
     flex-direction: column;
+    padding-top: 70px;
+   
 
     @media (max-width: 768px) {
       width: 100%;
       margin-bottom: 20px;
     }
-
-    .figure {
+    // if you put .figure it will be a class, not a tag and the pic will not show up
+    figure {
       width: 100%;
-      height: 55%;
-      border: 5px red solid;
+      height: 60%;
+      border: 5px white solid;
+      border-radius: 5px;
       background-image: url(${({ backgroundImage }) => backgroundImage});
       background-position: top;
+     
       background-size: cover;
     }
 
     hgroup {
-      margin: 15px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      text-align: center;
+      margin: 20px ;
+      //display: flex;
+      //align-items: center;
+     // justify-content: space-between;
+      //text-align: center;
 
       div {
         width: 75px;
@@ -37,33 +41,30 @@ export const Style = {
     }
 
     h3 {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 300;
-      font-size: 24px;
+      
+      font-size: 30px;
       line-height: 29px;
-      color: black;
+      color: var(--solid-fefefe,#000000);
+      text-align: center;
       
     }
 
     p {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 300;
-      font-size: 16px;
+     
+      font-size: 18px;
       line-height: 24px;
-      color: black;
+      color: var(--solid-fefefe,#000000);
       margin-bottom: 7.5px;
+      align-items: center;
       
     }
 
     span {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 300;
+     
       font-size: 14px;
       line-height: 24px;
       color: #6cace4;
+      
     }
   `,
 };

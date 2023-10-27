@@ -17,13 +17,14 @@ export const Style = {
       font-size: 18px;
       line-height: 22px;
       text-transform: uppercase;
-      color: #ffffff;
+     // color: #ffffff;
       //margin-bottom: 25px;
     }
 
     div.projects {
       display: flex;
       justify-content: space-between;
+      padding-right: 10px;
 
       @media (max-width: 768px) {
         flex-direction: column;

@@ -6,20 +6,22 @@ import { Style } from './styles';
 
 const project_data = [
     {
-      title: 'Vroom Stock App',
+      title: 'Residential Pest Control',
       image: '/project_pictures/insect1.png',
       
       link: '/project_pictures/insect2.png',
       detail:
-        'Python-based Stock Price Web Application. Using Streamlit and yfinance libraries, this app fetches company information and real-time stock prices for S&P 500 companies. With less than 50 lines of code.',
+        'We specialize in eliminating common household pests like ants, cockroaches, and rodents from your home. Our expert technicians conduct thorough inspections and provide customized solutions to ensure a pest-free living space for you and your family.',
+
+        
     },
     {
-      title: 'To do list',
+      title: 'Commercial Pest Control',
       image: '/project_pictures/insect2.png',
      
       link: 'https://to-do-list-r4qd645pj-rolando1515.vercel.app/',
       detail:
-        'A simple to do list app made with HTML,CSS and JavaScript. Its fast, responsive, and uses local storage to keep data secure.',
+        'Our commercial pest control services are tailored to businesses, including offices, restaurants, warehouses, and retail stores. We address pest issues in commercial environments, creating a clean, pest-free atmosphere for your employees and customers. Our targeted strategies effectively manage pests, promoting a healthy workplace.',
     },
     {
       title: 'Termites',
@@ -27,7 +29,7 @@ const project_data = [
      
       link: 'https://to-do-list-r4qd645pj-rolando1515.vercel.app/',
       detail:
-        'A simple to do list app made with HTML,CSS and JavaScript. Its fast, responsive, and uses local storage to keep data secure.',
+        'Protect your property from termite damage with our specialized termite control service. We identify and eliminate termite colonies, offering preventive measures to safeguard your home or business. Our advanced techniques ensure comprehensive termite eradication and long-term protection for your valuable assets.',
     },
   ];
 
