@@ -59,6 +59,7 @@ export const Style = {
       align-items: center;
       gap: 10px;
       margin-top: 20px;
+      padding-left: 0;
 
       li {
         color: var(--solid-fefefe, #FEFEFE);
