@@ -10,8 +10,7 @@ const project_data = [
       image: '/project_pictures/insect1.png',
       
       link: '/project_pictures/insect2.png',
-      detail:
-        'We specialize in eliminating common household pests like ants, cockroaches, and rodents from your home. Our expert technicians conduct thorough inspections and provide customized solutions to ensure a pest-free living space for you and your family.',
+      detail:'Our residential pest control service is designed to protect your home and family from unwanted pests. We offer comprehensive inspections to identify any existing pest issues and implement tailored solutions to eliminate them. Whether its dealing with common household pests like ants, cockroaches, or rodents, our expert technicians ensure a pest-free environment in your home.',
 
         
     },

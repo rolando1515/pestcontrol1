@@ -42,7 +42,10 @@ export const Style = {
 
     h3 {
       
-      font-size: 30px;
+      font-family: Open Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700; 
       line-height: 29px;
       color: var(--solid-fefefe,#000000);
       text-align: center;
@@ -51,11 +54,14 @@ export const Style = {
 
     p {
      
-      font-size: 18px;
+      
       line-height: 24px;
       color: var(--solid-fefefe,#000000);
       margin-bottom: 7.5px;
-      align-items: center;
+      font-family: Open Sans;
+        font-size: 15px;
+        font-style: normal;
+        text-align: center;
       
     }
 
