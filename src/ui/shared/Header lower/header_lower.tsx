@@ -26,16 +26,19 @@ export function HeaderLower() {
                  </a>
                 </li>
                 <li className="restoflist">
-                    Services
+                    <a href="#services"> Services
+                    </a>
                 </li>
                 <li className="restoflist">
-                    Contact Us
+                    <a href="#contact-us"> Contact Us
+                    </a>
                 </li>
                  <li className="restoflist">
                     Blog
                 </li>
                 <li className="restoflist">
-                    FAQ
+                    <a href="#faq"> FAQ
+                    </a>
                 </li>
 
 

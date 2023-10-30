@@ -22,7 +22,8 @@ export function Footer() {
                 Home
              </li>
              <li className="restoflist">
-                    About Us
+             <a href="#about-us">   About Us
+                 </a>
                 </li>
                 <li className="restoflist">
                     Services
@@ -32,7 +33,7 @@ export function Footer() {
                 </li>
                
                 <li className="restoflist">
-                    FAQ
+                    <a href="#faq"> FAQ </a>
                 </li>
 
 

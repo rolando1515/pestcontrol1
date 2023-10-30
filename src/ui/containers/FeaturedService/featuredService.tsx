@@ -35,7 +35,9 @@ const project_data = [
   export function FeaturedService() {
     return (
       <Style.Container id="projects">
-        <h2></h2>
+        <section id="services">
+  
+  </section>
         <div className="projects">
           {project_data.map(({ detail, title, image, link,  }) => (
             <ServiceCard

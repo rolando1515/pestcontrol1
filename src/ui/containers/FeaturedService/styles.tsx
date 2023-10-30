@@ -24,7 +24,7 @@ export const Style = {
     div.projects {
       display: flex;
       justify-content: space-between;
-      padding-right: 10px;
+      padding-right: 5px;
 
       @media (max-width: 768px) {
         flex-direction: column;

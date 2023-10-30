@@ -12,6 +12,9 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 export function Faq() {
   return (
       <Style.Container>
+        <section id="faq">
+
+       </section>
       <h1>FAQ</h1>
 
    
