@@ -19,6 +19,7 @@ export const Style ={
       display: flex;
       gap: 10px;
      //padding: 32px 50px 32 px ;
+     
     }
 
     li{

@@ -19,7 +19,7 @@
   /*
    TODO: Define a max-width for your mobile views, do research into media queries and a proper width to use. 
    */
-  @media (max-width: 767px) {
+  @media (max-width: 480px) {
     :root {
       --width: 95%;
     }
