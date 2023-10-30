@@ -4,6 +4,7 @@ import { Style } from "./style";
 export function AboutUs() {
     return (
         <Style.Container>
+        <section id="about-us"></section>
         <h1>About Us</h1>
 
        <h2>
@@ -35,6 +36,7 @@ export function AboutUs() {
         thoroughly before crafting a customized pest control plan. Whether you're dealing with pesky insects, rodents,
          or any other unwelcome guests, we have the expertise to handle it effectively.
         </p>
+        
 
     </Style.Container>  
 

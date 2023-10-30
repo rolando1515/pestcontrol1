@@ -22,7 +22,8 @@ export function HeaderLower() {
                 Home
              </li>
              <li className="restoflist">
-                    About Us
+                 <a href="#about-us">   About Us
+                 </a>
                 </li>
                 <li className="restoflist">
                     Services
@@ -30,7 +31,7 @@ export function HeaderLower() {
                 <li className="restoflist">
                     Contact Us
                 </li>
-                <li className="restoflist">
+                 <li className="restoflist">
                     Blog
                 </li>
                 <li className="restoflist">

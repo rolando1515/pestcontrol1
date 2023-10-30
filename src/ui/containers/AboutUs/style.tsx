@@ -6,7 +6,7 @@ export const Style = {
      max-width: var(--max-width);
    // height: 120px;
    // width: 100%;
-    height: calc(100vh - 123px);
+    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
     justify-content: center;

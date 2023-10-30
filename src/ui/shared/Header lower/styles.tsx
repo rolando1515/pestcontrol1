@@ -33,6 +33,15 @@ export const Style ={
         
 
     }
+    a{
+      color: var(--solid-fefefe,#019EE1);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;     
+        text-transform: capitalize;
+
+    }
 
     .company-container{
         display: flex;

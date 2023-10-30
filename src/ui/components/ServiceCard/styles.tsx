@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Style = {
   Container: styled.article<{ backgroundImage: string }>`
     width: 40%;
-    height: 750px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     padding-top: 70px;
@@ -15,12 +15,14 @@ export const Style = {
     }
     // if you put .figure it will be a class, not a tag and the pic will not show up
     figure {
-      width: 100%;
-      height: 60%;
-      border: 5px white solid;
+      width: 80%;
+      height: 50%;
+    //  border: 5px white solid;
       border-radius: 5px;
       background-image: url(${({ backgroundImage }) => backgroundImage});
       background-position: top;
+      margin: auto;
+    
      
       background-size: cover;
     }

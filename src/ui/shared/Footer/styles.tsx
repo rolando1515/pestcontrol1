@@ -6,7 +6,7 @@ export const Style ={
     width: 100%;
     display: grid;
     place-items: center;
-    background: var(--solid-f-18-f-01,#FEFEFE);
+    background: var(--solid-f-18-f-01,#019EE1);
     
     @media (max-width: 768px) {
       span {
@@ -22,7 +22,7 @@ export const Style ={
     }
 
     li{
-        color: var(--solid-fefefe,#019EE1);
+        color: var(--solid-fefefe,#fefefe);
         font-family: Open Sans;
         font-size: 16px;
         font-style: normal;
@@ -60,6 +60,10 @@ export const Style ={
 
     }
 
+    .logo{
+
+     color: #fefefe
+    }
 
 
         `,
